@@ -20,160 +20,171 @@
 
   <body>
     <!--Шапка сайта-->
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          >Web<span class="logo-nav">Studio</span></a
-        >
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
-        </ul>
-      </nav>
-      <!--Header contact-->
-      <ul class="header-contact list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact"
-            >info@devstudio.com</a
+    <header class="header">
+      <!--Навигация сайта-->
+      <div class="container-nav">
+        <nav class="nav">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo-nav">Studio</span></a
           >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
-        </li>
-      </ul>
+          <ul class="site-nav list">
+            <li><a href="./index.html" class="link current">Студия</a></li>
+            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!--Header contact-->
+      <div class="container-hcontact">
+        <ul class="header-contact list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h1 class="section-title-none">Наше портфолио</h1>
-        <ul class="portfolio list">
-          <li>
-            <button type="button" class="button portfolio all">Все</button>
-          </li>
-          <li>
-            <button type="button" class="button portfolio site">
-              Веб-сайты
-            </button>
-          </li>
-          <li>
-            <button type="button" class="button portfolio app">
-              Приложения
-            </button>
-          </li>
-          <li>
-            <button type="button" class="button portfolio design">
-              Дизайн
-            </button>
-          </li>
-          <li>
-            <button type="button" class="button portfolio marketing">
-              Маркетинг
-            </button>
-          </li>
-        </ul>
-        <h2 class="section-title-none">Примеры работ</h2>
-        <ul class="example list">
-          <li>
-            <img
-              src="./images/portfolio/site_tehnokriak.jpg"
-              alt="веб-сайт Технокряк"
-              width="370"
-              height="294"
-            />
-            <h3 class="portfolio-title">Технокряк</h3>
-            <p class="ident-title portfolio">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/poster_new_arlean_vs_gold_stars.jpg"
-              alt="постер Новый Орлеан против Золотых Звезд"
-              width="370"
-              height="294"
-            />
-            <h3 class="portfolio-title">
-              Постер <span lang="en">New Orlean vs Golden Star</span>
-            </h3>
-            <p class="ident-title portfolio">Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/app_restaurant_seafood.jpg"
-              alt="приложение ресторана Морепродукты"
-              width="370"
-              height="294"
-            />
-            <h3 class="portfolio-title">
-              Ресторан <span lang="en">Seafood</span>
-            </h3>
-            <p class="ident-title portfolio">Приложение</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/marketing_project_prime.jpg"
-              alt="проект Прайм маркейтинг"
-              width="370"
-              height="294"
-            />
-            <h3 class="portfolio-title">Проект <span lang="en">Prime</span></h3>
-            <p class="ident-title portfolio">Маркетинг</p>
-          </li>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title-none">Наше портфолио</h1>
+          <ul class="portfolio list">
+            <li>
+              <button type="button" class="button portfolio all">Все</button>
+            </li>
+            <li>
+              <button type="button" class="button portfolio site">
+                Веб-сайты
+              </button>
+            </li>
+            <li>
+              <button type="button" class="button portfolio app">
+                Приложения
+              </button>
+            </li>
+            <li>
+              <button type="button" class="button portfolio design">
+                Дизайн
+              </button>
+            </li>
+            <li>
+              <button type="button" class="button portfolio marketing">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+          <h2 class="section-title-none">Примеры работ</h2>
+          <ul class="example list">
+            <li>
+              <img
+                src="./images/portfolio/site_tehnokriak.jpg"
+                alt="веб-сайт Технокряк"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-title">Технокряк</h3>
+              <p class="ident-title portfolio">Веб-сайт</p>
+            </li>
+            <li>
+              <img
+                src="./images/portfolio/poster_new_arlean_vs_gold_stars.jpg"
+                alt="постер Новый Орлеан против Золотых Звезд"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-title">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h3>
+              <p class="ident-title portfolio">Дизайн</p>
+            </li>
+            <li>
+              <img
+                src="./images/portfolio/app_restaurant_seafood.jpg"
+                alt="приложение ресторана Морепродукты"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-title">
+                Ресторан <span lang="en">Seafood</span>
+              </h3>
+              <p class="ident-title portfolio">Приложение</p>
+            </li>
+            <li>
+              <img
+                src="./images/portfolio/marketing_project_prime.jpg"
+                alt="проект Прайм маркейтинг"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-title">
+                Проект <span lang="en">Prime</span>
+              </h3>
+              <p class="ident-title portfolio">Маркетинг</p>
+            </li>
 
-          <li>
-            <img
-              src="./images/portfolio/app_project_boxes.jpg"
-              alt="приложение проекта Коробки"
-              width="370"
-              height="294"
-            />
-            <h3 class="portfolio-title">Проект <span lang="en">Boxes</span></h3>
-            <p class="ident-title portfolio">Приложение</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/site_inspiration.jpg"
-              alt="Веб-сайт Вдохновение не имеет границ"
-              width="370"
-              height="294"
-            />
-            <h3 lang="en" class="portfolio-title">
-              Inspiration has no Borders
-            </h3>
-            <p class="ident-title portfolio">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/design_limeted_edition.jpg"
-              alt="Дизайн издания Лимитед Эдишин"
-              width="370"
-              height="294"
-            />
-            <h3 class="portfolio-title">
-              Издание <span lang="en">Limited Edition</span>
-            </h3>
-            <p class="ident-title portfolio">Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/progect_lab.jpg"
-              alt="Проект ЛАБ"
-              width="370"
-              height="294"
-            />
-            <h3 class="portfolio-title">Проект <span lang="en">LAB</span></h3>
-            <p class="ident-title portfolio">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/app_groving_b.jpg"
-              alt="Приложение растущий бизнес"
-              width="370"
-              height="294"
-            />
-            <h3 lang="en" class="portfolio-title">Growing Business</h3>
-            <p class="ident-title portfolio">Приложение</p>
-          </li>
-        </ul>
+            <li>
+              <img
+                src="./images/portfolio/app_project_boxes.jpg"
+                alt="приложение проекта Коробки"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-title">
+                Проект <span lang="en">Boxes</span>
+              </h3>
+              <p class="ident-title portfolio">Приложение</p>
+            </li>
+            <li>
+              <img
+                src="./images/portfolio/site_inspiration.jpg"
+                alt="Веб-сайт Вдохновение не имеет границ"
+                width="370"
+                height="294"
+              />
+              <h3 lang="en" class="portfolio-title">
+                Inspiration has no Borders
+              </h3>
+              <p class="ident-title portfolio">Веб-сайт</p>
+            </li>
+            <li>
+              <img
+                src="./images/portfolio/design_limeted_edition.jpg"
+                alt="Дизайн издания Лимитед Эдишин"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-title">
+                Издание <span lang="en">Limited Edition</span>
+              </h3>
+              <p class="ident-title portfolio">Дизайн</p>
+            </li>
+            <li>
+              <img
+                src="./images/portfolio/progect_lab.jpg"
+                alt="Проект ЛАБ"
+                width="370"
+                height="294"
+              />
+              <h3 class="portfolio-title">Проект <span lang="en">LAB</span></h3>
+              <p class="ident-title portfolio">Маркетинг</p>
+            </li>
+            <li>
+              <img
+                src="./images/portfolio/app_groving_b.jpg"
+                alt="Приложение растущий бизнес"
+                width="370"
+                height="294"
+              />
+              <h3 lang="en" class="portfolio-title">Growing Business</h3>
+              <p class="ident-title portfolio">Приложение</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

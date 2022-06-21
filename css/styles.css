@@ -84,11 +84,6 @@ color: var(--accent-color);
 }
 /* Header contact */
 
-.header{
-    outline: 5px solid green;
-}
-
-
 .header-contact .contact{
     font-weight: 500;
     font-size: 14px;

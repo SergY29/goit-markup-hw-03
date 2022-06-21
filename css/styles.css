@@ -101,7 +101,7 @@ color: var(--accent-color);
 /* Hero */
 .hero{
     background-color: var(--alternative-background-color);
-
+    text-align: center;
 }
 
 .hero-title{

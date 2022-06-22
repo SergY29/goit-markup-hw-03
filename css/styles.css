@@ -38,10 +38,10 @@ body{
     margin: 0 auto;
 }
 
-.section{
+/* .section{
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
 /* Site-nav */
 .logo{
@@ -150,6 +150,7 @@ color: var(--accent-color);
 }
 
 .button.portfolio{
+    margin-bottom: 50px;
     min-width: 73px;
     padding: 6px 22px;
     background-color: var(--acccent-background-color);
@@ -171,6 +172,8 @@ color: var(--accent-color);
 
 /* Body */
 .ident-title {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--title-text-color);
 }
 
@@ -197,6 +200,8 @@ color: var(--accent-color);
     display: none;
 }
 .feachers-title{
+    margin-top: 0;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -205,6 +210,8 @@ color: var(--accent-color);
 }
 
 .section-title{
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height:1.16;

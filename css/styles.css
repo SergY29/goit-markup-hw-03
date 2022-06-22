@@ -150,7 +150,7 @@ color: var(--accent-color);
 }
 
 .button.portfolio{
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     min-width: 73px;
     padding: 6px 22px;
     background-color: var(--acccent-background-color);

@@ -59,9 +59,6 @@ body{
 
 .logo{
     margin-right: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
 
     font-family: 'Raleway';
     font-weight: 700;
@@ -267,6 +264,24 @@ color: var(--accent-color);
 }
 
 /* main portfolio */
+.portfolio.list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.portfolio .item + .item{
+    margin-left: 8px;
+} 
+
+.example.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: calc((100%-60px)/3);
+
+}
+
 .portfolio-title{
     font-size: 18px;
     line-height: 2;

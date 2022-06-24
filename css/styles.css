@@ -33,8 +33,7 @@ body{
 }
 
 .container{
-    max-width: 1170px;
-    /* width: 100%; */
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -243,6 +242,25 @@ color: var(--accent-color);
 .section-title-none{
     display: none;
 }
+
+.feachers {
+    display: flex;
+}
+
+.feachers .item{
+    width: 270px;
+}
+
+.feachers .item + .item{
+    margin-left: 30px;
+}
+
+
+/* .feachers li{
+    outline: 1px solid tomato;
+} */
+
+
 .feachers-title{
     margin-top: 0;
     margin-bottom: 10px;
@@ -252,6 +270,15 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
     text-transform: uppercase
 }
+
+.affair{
+    display: flex;
+}
+
+.affair .item{
+    width: 370;
+}
+
 
 .section-title{
     margin-top: 0;
@@ -278,8 +305,12 @@ color: var(--accent-color);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    flex-basis: calc((100%-60px)/3);
 
+}
+
+.example .item{
+    display: block;
+    width: 370;
 }
 
 .portfolio-title{

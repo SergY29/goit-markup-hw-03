@@ -24,6 +24,13 @@
     box-sizing: border-box;
 }
 
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body{
     margin: 0;
     font-family: var(--font-family-primary), Verdana, Tahoma, arial, sans-serif;
@@ -40,10 +47,10 @@ body{
 }
 
 
-/* .section{
+.section{
     padding-top: 94px;
     padding-bottom: 94px;
-} */
+}
 
 /* Site-nav */
 
@@ -227,6 +234,8 @@ color: var(--accent-color);
 }
 
 .ident-title.team{
+    margin-bottom: 30px;
+
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -271,12 +280,19 @@ color: var(--accent-color);
     text-transform: uppercase
 }
 
+/* Чем мы занимаемся */
+
 .affair{
     display: flex;
 }
 
 .affair .item{
     width: 370;
+    /* font-size: 0 */
+}
+
+.affair .item + .item{
+    margin-left: 30px;
 }
 
 
@@ -289,6 +305,7 @@ color: var(--accent-color);
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 
 /* main portfolio */
 .portfolio.list {
@@ -324,11 +341,23 @@ color: var(--accent-color);
     background-color: var(--acccent-background-color);
 }
 
-.team-apart{
+.team.list {
+    display: flex;
+
+}
+
+.team.apart{
     background-color: var(--primary-background-color);
 }
 
+.team .apart + .apart{
+    margin-left: 30px;
+}
+
+
 .name-team{
+    margin-top: 30px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;

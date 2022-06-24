@@ -332,12 +332,13 @@ color: var(--accent-color);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    flex-basis: calc((100% -60px) / 3);
 }
 
-.example .item{
+/* .example .item{
     display: block;
     width: 370;
-}
+} */
 
 .portfolio-title{
     font-size: 18px;

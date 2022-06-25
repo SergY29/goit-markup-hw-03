@@ -335,12 +335,26 @@ color: var(--accent-color);
     flex-basis: calc((100% -60px) / 3);
 }
 
+.border-port{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+
+    border-right: 1px solid var(--border-color-portfoli-cards);
+    border-bottom: 1px solid var(--border-color-portfoli-cards);
+    border-left: 1px solid var(--border-color-portfoli-cards)
+}
+
+
 /* .example .item{
     display: block;
     width: 370;
 } */
 
 .portfolio-title{
+    margin-top: 0;
+    margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;

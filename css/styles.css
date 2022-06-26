@@ -123,10 +123,10 @@ color: var(--primary-text-color);
 color: var(--accent-color);
 }
 
-.list{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.list {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
 }
 /* Header contact */
 
@@ -418,16 +418,20 @@ color: var(--accent-color);
 
     color: var(--primary-background-color);
     font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height:1.7;
     letter-spacing: 0.03em;
 }
 
+
 .footer-contact{
+    display: block;
     margin-top: 9px;
 
     color: var(--alternative-text-color);
     font-style: normal;
+    font-weight: 400;
     text-decoration: none;
     font-size: 14px;
     line-height: 1.7;
